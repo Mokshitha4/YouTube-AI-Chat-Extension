@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  #chat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  #input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #send {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #send:hover {
+    background: #0056b3;
+  }
+  .userQn{
+    background-color: #d9d8d8d3;
+    padding: 5px;
+    margin: 3px;
+  }
+  .AiAns{
+    background-color: #f0eded;
+    padding: 5px;
+    margin: 3px;
+  }
